@@ -1,0 +1,36 @@
+.container {
+padding: 41px 9px 40px 25px;
+}
+
+.headerWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 220px; */
+}
+
+.logoWrapper {
+  display: flex;
+}
+
+.logoList {
+  margin: 0 0 0 8px;
+}
+
+.logoTitle {
+  font-family: Quicksand;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.14px;
+}
+
+.logoItem {
+  font-family: Quicksand;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
