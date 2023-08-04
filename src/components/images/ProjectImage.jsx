@@ -37,7 +37,7 @@ function ProjectImage() {
       <source media="(min-width: 280px)" srcSet={project1x} />
       <source media="(min-width: 280px)" srcSet={project2x} />
 
-      <img src={project1x} alt="group-of-people" />
+      <img src={project1x} alt="Group of people" />
     </picture>
   );
 }
