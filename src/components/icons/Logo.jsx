@@ -1,4 +1,4 @@
-import logo from "../../ic/logo.svg";
+import logo from "../../images/icons/logo.svg";
 
 function Logo() {
   return <img src={logo} alt="Logo" />;

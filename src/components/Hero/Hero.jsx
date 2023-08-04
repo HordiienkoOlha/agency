@@ -1,3 +1,4 @@
+import Button from "../Button/Button";
 import s from "./Hero.module.css";
 
 function Hero() {
@@ -13,6 +14,11 @@ function Hero() {
         <br /> then come with us to help your business have reach
         <br /> it, you just sit and feel that goal.
       </p>
+      <div className={s.buttonWrapper}>
+        <Button label="Start Project" />
+      </div>
+      {/* <Button label="Реверсна кнопка" reverse={true} />
+      <Button label="Інша стилізація" style={{ backgroundColor: 'blue', color: 'white' }} /> */}
     </section>
   );
 }

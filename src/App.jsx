@@ -1,6 +1,7 @@
 import "./App.css";
 import AppBar from "./components/AppBar/AppBar";
 import Hero from "./components/Hero/Hero";
+import Project from "./components/Project/Project";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <AppBar />
 
       <Hero />
+      <Project/>
     </>
   );
 }
