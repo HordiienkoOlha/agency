@@ -1,7 +1,7 @@
 import logo from "../../images/icons/logo.svg";
 
-function Logo() {
+function LogoImage() {
   return <img src={logo} alt="Logo" />;
 }
 
-export default Logo;
+export default LogoImage;

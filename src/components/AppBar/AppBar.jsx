@@ -1,7 +1,7 @@
 import s from "./AppBar.module.css";
 
-import Logo from "../icons/Logo";
 import Burger from "../icons/Burger";
+import Logo from "../Logo/Logo";
 
 function AppBar() {
   return (
@@ -9,21 +9,7 @@ function AppBar() {
       <div className={s.container}>
         <ul className={s.headerWrapper}>
           <li>
-            <ul className={s.logoWrapper}>
-              <li>
-                <Logo />
-              </li>
-              <li>
-                <ul className={s.logoList}>
-                  <li>
-                    <p className={s.logoTitle}>Agency</p>
-                  </li>
-                  <li>
-                    <p className={s.logoItem}>Creative</p>
-                  </li>
-                </ul>
-              </li>
-            </ul>
+            <Logo/>
           </li>
           <li>
             <Burger />

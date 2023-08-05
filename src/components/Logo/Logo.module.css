@@ -1,0 +1,24 @@
+.logoWrapper {
+  display: flex;
+}
+
+.logoList {
+  margin: 0 0 0 8px;
+}
+
+.logoTitle {
+  font-family: Quicksand;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.14px;
+}
+
+.logoItem {
+  font-family: Quicksand;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
