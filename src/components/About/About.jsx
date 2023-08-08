@@ -2,6 +2,8 @@ import Button from "../Button/Button";
 import PlayCircle from "../icons/PlayCircle";
 import TeamImage from "../images/TeamImage";
 
+import s from "./About.module.css";
+
 const labelButton = (
   <>
     <ul>
@@ -40,7 +42,9 @@ function About() {
           <Button label="About Us" />
         </li>
         <li>
-          <Button label={labelButton} reverse={true} />
+          <button type="button" className={s.buttonReverse}>
+            {labelButton}
+          </button>
         </li>
       </ul>
       <TeamImage />
