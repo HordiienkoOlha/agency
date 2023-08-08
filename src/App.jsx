@@ -1,27 +1,35 @@
-import "./App.css";
-import About from "./components/About/About";
+import { lazy, Suspense } from "react";
 import AppBar from "./components/AppBar/AppBar";
-import CardTestimonial from "./components/CardTestimonial/CardTestimonial";
-import Footer from "./components/Footer/Footer";
+import Container from "./components/Container/Container";
 import Hero from "./components/Hero/Hero";
-import OurPortfolio from "./components/OurPortfolio/OurPortfolio";
-import OurServices from "./components/OurServices/OurServices";
-import Project from "./components/Project/Project";
-import Testimonial from "./components/Testimonial/Testimonial";
+
+import "./App.css";
+
+const Project = lazy(() => import("./components/Project/Project"));
+const About = lazy(() => import("./components/About/About"));
+const OurServices = lazy(() => import("./components/OurServices/OurServices"));
+const OurPortfolio = lazy(() =>
+  import("./components/OurPortfolio/OurPortfolio")
+);
+const Slider = lazy(() => import("./components/Slider/Slider"));
+const Testimonial = lazy(() => import("./components/Testimonial/Testimonial"));
+const Footer = lazy(() => import("./components/Footer/Footer"));
 
 function App() {
   return (
     <>
       <AppBar />
-
-      <Hero />
-      <Project />
-      <About />
-      <OurServices />
-      <OurPortfolio />
-      <CardTestimonial />
-      <Testimonial />
-
+      <Container>
+        <Hero />
+        <Suspense fallback={<div>Loading...</div>}>
+          <Project />
+          <About />
+          <OurServices />
+          <OurPortfolio />
+          <Slider />
+          <Testimonial />
+        </Suspense>
+      </Container>
       <Footer />
     </>
   );
