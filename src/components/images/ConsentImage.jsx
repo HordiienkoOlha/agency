@@ -37,7 +37,7 @@ function ConsentImage() {
       <source media="(min-width: 280px)" srcSet={consent1x} />
       <source media="(min-width: 280px)" srcSet={consent2x} />
 
-      <img src={consent1x} alt="Consent" />
+      <img src={consent1x} alt="Consent" width="221px" height="196px" />
     </picture>
   );
 }

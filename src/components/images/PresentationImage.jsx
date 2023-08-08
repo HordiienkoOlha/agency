@@ -37,7 +37,7 @@ function PresentationImage() {
       <source media="(min-width: 280px)" srcSet={presentation1x} />
       <source media="(min-width: 280px)" srcSet={presentation2x} />
 
-      <img src={presentation1x} alt="presentation" />
+      <img src={presentation1x} alt="presentation" width="180px" height="177px" />
     </picture>
   );
 }

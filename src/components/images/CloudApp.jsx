@@ -37,7 +37,7 @@ function CloudApp() {
       <source media="(min-width: 280px)" srcSet={cloudApp1x} />
       <source media="(min-width: 280px)" srcSet={cloudApp2x} />
 
-      <img src={cloudApp1x} alt="Cloud App" />
+      <img src={cloudApp1x} alt="Cloud App" width="340px" height="338px" />
     </picture>
   );
 }

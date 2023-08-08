@@ -37,7 +37,7 @@ function DesignApp() {
       <source media="(min-width: 280px)" srcSet={designApp1x} />
       <source media="(min-width: 280px)" srcSet={designApp2x} />
 
-      <img src={designApp1x} alt="Design App" />
+      <img src={designApp1x} alt="Design App" width="300px" height="300px" />
     </picture>
   );
 }

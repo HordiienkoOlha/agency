@@ -37,7 +37,7 @@ function ByteApp() {
       <source media="(min-width: 280px)" srcSet={byteApp1x} />
       <source media="(min-width: 280px)" srcSet={byteApp2x} />
 
-      <img src={byteApp1x} alt="Byte App" />
+      <img src={byteApp1x} alt="Byte App" width="300px" height="301.765px" />
     </picture>
   );
 }

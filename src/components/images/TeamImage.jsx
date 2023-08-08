@@ -37,7 +37,7 @@ function TeamImage() {
       <source media="(min-width: 280px)" srcSet={team1x} />
       <source media="(min-width: 280px)" srcSet={team2x} />
 
-      <img src={team1x} alt="Our Team" />
+      <img src={team1x} alt="Our Team" width="340px" height="242px" />
     </picture>
   );
 }

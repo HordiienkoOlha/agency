@@ -6,7 +6,7 @@ function BillImage() {
     <picture>
       <source media="(min-width: 1440px)" srcSet={billDesc} />
       <source srcSet={bill} />
-      <img src={bill} alt="Bill Adams" />
+      <img src={bill} alt="Bill Adams" width="15.422px" height="15.422px" />
     </picture>
   );
 }
