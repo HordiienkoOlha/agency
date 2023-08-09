@@ -2,12 +2,18 @@
   padding: 34px 0 0 6px;
 }
 
-.content{
-    width: 99px;
+.project {
+  position: relative;
+}
 
+.content {
+  width: 99px;
+  top: 0px;
+  left: 0px;
+  position: absolute;
 }
 .wrapperList {
-padding: 8px 0px 9px 13px;
+  padding: 8px 0px 9px 13px;
 
   border-radius: 6px;
   background-color: var(--background-color);
@@ -18,8 +24,7 @@ padding: 8px 0px 9px 13px;
   display: flex;
 }
 
-.item{
-
+.item {
 }
 
 .title {
