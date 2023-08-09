@@ -1,5 +1,5 @@
 .container {
-  padding: 29px 0 0 6px;
+  padding: 29px 20px;
 }
 
 .project {
@@ -61,3 +61,16 @@
   letter-spacing: 0.12px;
 }
 
+.wrapperBlueDots {
+  position: absolute;
+  top: -11px;
+  right: -4px;
+  z-index: -1;
+}
+
+.wrapperRedDots {
+  position: absolute;
+  bottom: -13px;
+  left: -9px;
+  z-index: -1;
+}

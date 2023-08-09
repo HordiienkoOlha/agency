@@ -3,6 +3,8 @@ import s from "./Project.module.css";
 import ProjectImage from "../images/ProjectImage";
 import Star from "../icons/Start";
 import Card from "../Card/Card";
+import BlueDots from "../icons/BlueDots";
+import RedDots from "../icons/RedDots";
 
 function Project() {
   return (
@@ -24,8 +26,14 @@ function Project() {
             </p>
           </div>
         </div>
-        
-          <Card />
+        <div className={s.wrapperBlueDots}>
+          <BlueDots />
+        </div>
+        <div className={s.wrapperRedDots}>
+          <RedDots />
+        </div>
+
+        <Card />
       </div>
     </section>
   );

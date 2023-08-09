@@ -21,15 +21,17 @@ function App() {
       <AppBar />
       <Container>
         <Hero />
-        <Suspense fallback={<div>Loading...</div>}>
-          <Project />
+      </Container>
+      <Suspense fallback={<div>Loading...</div>}>
+        <Project />
+        <Container>
           <About />
           <OurServices />
           <OurPortfolio />
           <Slider />
           <Testimonial />
-        </Suspense>
-      </Container>
+        </Container>
+      </Suspense>
       <Footer />
     </>
   );
