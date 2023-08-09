@@ -6,16 +6,24 @@ import Card from "../Card/Card";
 
 function Project() {
   return (
-    <section className={s.projectWrapper}>
+    <section className={s.container}>
       <ProjectImage />
-      <div>
-        <Star />
-        <h2>Great Project</h2>
-        <p>
-          800+ <span>Done</span>
-        </p>
+      <div className={s.content}>
+        <div className={s.wrapperList}>
+          <ul className={s.list}>
+            <li>
+              <Star />
+            </li>
+            <li className={s.item}>
+              <h2 className={s.title}>Great Project</h2>
+            </li>
+          </ul>
+          <p className={s.preText}>
+            800+ <span className={s.text}>Done</span>
+          </p>
+        </div>
       </div>
-      <Card/>
+      <Card />
     </section>
   );
 }

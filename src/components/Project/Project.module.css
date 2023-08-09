@@ -1,3 +1,56 @@
-.projectWrapper{
-    padding-top: 40px 0 0 0;
+.container {
+  padding: 34px 0 0 6px;
+}
+
+.content{
+    width: 99px;
+
+}
+.wrapperList {
+padding: 8px 0px 9px 13px;
+
+  border-radius: 6px;
+  background-color: var(--background-color);
+  box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.15);
+}
+
+.list {
+  display: flex;
+}
+
+.item{
+
+}
+
+.title {
+  text-align: center;
+  font-family: Quicksand, sans-serif;
+  font-size: 6px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.06px;
+  text-transform: uppercase;
+
+  opacity: 0.5;
+  vertical-align: baseline;
+}
+
+.preText {
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.12px;
+
+  margin: 4px 0 0 0;
+}
+
+.text {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.12px;
 }
