@@ -1,5 +1,5 @@
-.container{
-padding: 20px 0;
+.container {
+  padding: 20px 0;
 }
 
 .title {
@@ -33,5 +33,5 @@ padding: 20px 0;
 .buttonWrapper {
   display: flex;
   justify-content: center;
-  padding: 9px 0px 9px 6px
+  padding: 9px 0px 9px 6px;
 }
