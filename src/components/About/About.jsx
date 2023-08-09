@@ -1,16 +1,17 @@
 import Button from "../Button/Button";
 import PlayCircle from "../icons/PlayCircle";
+import PurpleDots from "../icons/PurpleDots";
 import TeamImage from "../images/TeamImage";
 
 import s from "./About.module.css";
 
 const labelButton = (
   <>
-    <ul>
+    <ul className={s.listLabelButton}>
       <li>
         <PlayCircle />
       </li>
-      <li>
+      <li className={s.buttonTitle}>
         <p>About Us</p>
       </li>
     </ul>
@@ -19,10 +20,10 @@ const labelButton = (
 
 function About() {
   return (
-    <section>
-      <h2>About Us</h2>
-      <h3>Our Teammate</h3>
-      <ul>
+    <section className={s.container}>
+      <h2 className={s.title}>About Us</h2>
+      <h3 className={s.description}>Our Teammate</h3>
+      <ul className={s.list}>
         <li>
           <p>
             We move with make a Creative Strategy for help your business goal,
@@ -30,14 +31,14 @@ function About() {
             content look interesting and make people look for your business2
           </p>
         </li>
-        <li>
+        <li className={s.item}>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu neque
             tempor at ut auctor maecenas,Lorem ipsum d
           </p>
         </li>
       </ul>
-      <ul>
+      <ul className={s.listButton}>
         <li>
           <Button label="About Us" />
         </li>
@@ -47,7 +48,12 @@ function About() {
           </button>
         </li>
       </ul>
-      <TeamImage />
+      <div className={s.imageWrapper}>
+        <TeamImage />
+        <div className={s.wrapperDots}>
+          <PurpleDots />
+        </div>
+      </div>
     </section>
   );
 }
