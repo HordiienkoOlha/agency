@@ -3,7 +3,7 @@ import s from "./Hero.module.css";
 
 function Hero() {
   return (
-    <section>
+    <section className={s.container}>
       <h1 className={s.title}>
         Make your dream
         <br />
