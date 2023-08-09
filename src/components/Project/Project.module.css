@@ -1,5 +1,5 @@
 .container {
-  padding: 34px 0 0 6px;
+  padding: 29px 0 0 6px;
 }
 
 .project {
@@ -7,13 +7,13 @@
 }
 
 .content {
-  width: 99px;
-  top: 0px;
-  left: 0px;
+  max-width: 99px;
+  top: -14px;
+  left: -9px;
   position: absolute;
 }
 .wrapperList {
-  padding: 8px 0px 9px 13px;
+  padding: 8px 18px 9px 13px;
 
   border-radius: 6px;
   background-color: var(--background-color);
@@ -25,6 +25,7 @@
 }
 
 .item {
+  padding: 5px 0px 0px 2px;
 }
 
 .title {
@@ -37,19 +38,19 @@
   letter-spacing: 0.06px;
   text-transform: uppercase;
 
-  opacity: 0.5;
+  /* opacity: 0.5; */
   vertical-align: baseline;
 }
 
 .preText {
-  text-align: center;
   font-size: 12px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.12px;
 
-  margin: 4px 0 0 0;
+  margin: 3px 0 0 0;
+  padding: 0px 0px 0px 2px;
 }
 
 .text {
@@ -58,4 +59,11 @@
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.12px;
+}
+
+.cardWrapper {
+  width: 99px;
+  bottom: 0px;
+  right: 0px;
+  position: absolute;
 }
