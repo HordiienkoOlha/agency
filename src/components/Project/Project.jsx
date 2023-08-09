@@ -24,9 +24,8 @@ function Project() {
             </p>
           </div>
         </div>
-        <div className={s.cardWrapper}>
+        
           <Card />
-        </div>
       </div>
     </section>
   );
