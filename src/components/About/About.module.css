@@ -56,7 +56,7 @@
 .buttonReverse {
   color: var(--accent-color);
 
-  font-family: Quicksand;
+  font-family: Quicksand, sans-serif;
   font-size: 12px;
   font-weight: 700;
   line-height: 1.5;

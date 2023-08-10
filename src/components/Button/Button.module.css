@@ -1,6 +1,6 @@
 .button {
   color: var(--background-color);
-  font-family: Quicksand;
+  font-family: Quicksand, sans-serif;
   font-size: 12px;
   font-weight: 700;
   line-height: 1.5;
@@ -17,7 +17,7 @@
 .buttonReverse {
   color: var(--accent-color);
 
-  font-family: Quicksand;
+  font-family: Quicksand, sans-serif;
   font-size: 12px;
   font-weight: 700;
   line-height: 1.5;
@@ -27,8 +27,7 @@
   border-radius: 24px;
 
   background-color: var(--background-color);
-  border: none;
-  box-shadow: 0px 4px 8px 0px rgba(55, 125, 255, 0.5);
+  border: 0.7px solid var(--accent-color);
 }
 
 .button:hover,

@@ -7,7 +7,7 @@
 }
 
 .logoTitle {
-  font-family: Quicksand;
+  font-family: Quicksand, sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -16,7 +16,7 @@
 }
 
 .logoItem {
-  font-family: Quicksand;
+  font-family: Quicksand, sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
