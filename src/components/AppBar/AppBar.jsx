@@ -1,13 +1,12 @@
-import s from "./AppBar.module.css";
-
 import Burger from "../icons/Burger";
 import Logo from "../Logo/Logo";
-import Container from "../Container/Container";
+
+import s from "./AppBar.module.css";
 
 function AppBar() {
   return (
     <header>
-      <Container>
+      <div className={s.containerWrapper}>
         <div className={s.container}>
           <ul className={s.headerWrapper}>
             <li>
@@ -18,7 +17,7 @@ function AppBar() {
             </li>
           </ul>
         </div>
-      </Container>
+      </div>
     </header>
   );
 }
