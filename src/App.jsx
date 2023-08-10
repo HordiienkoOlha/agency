@@ -1,6 +1,5 @@
 import { lazy, Suspense } from "react";
 import AppBar from "./components/AppBar/AppBar";
-import Container from "./components/Container/Container";
 import Hero from "./components/Hero/Hero";
 
 import "./App.css";
@@ -19,19 +18,17 @@ function App() {
   return (
     <>
       <AppBar />
-      <Container>
+      <main>
         <Hero />
-      </Container>
-      <Suspense fallback={<div>Loading...</div>}>
-        <Project />
-        <Container>
+        <Suspense fallback={<div>Loading...</div>}>
+          <Project />
           <About />
           <OurServices />
           <OurPortfolio />
           <Slider />
           <Testimonial />
-        </Container>
-      </Suspense>
+        </Suspense>
+      </main>
       <Footer />
     </>
   );

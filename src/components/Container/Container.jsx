@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import s from "./Container.module.css";
 
 function Container({ children }) {
-  return <main className={s.container}>{children}</main>;
+  return <section className={s.container}>{children}</section>;
 }
 
 export default Container;
