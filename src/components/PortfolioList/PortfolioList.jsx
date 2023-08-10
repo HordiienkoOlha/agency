@@ -2,20 +2,23 @@ import DesignApp from "../images/DesignApp";
 import CloudApp from "../images/CloudApp";
 import ByteApp from "../images/ByteApp";
 
+
+import s from "./PortfolioList.module.css";
+
 function PortfolioList() {
   return (
-    <ul>
-      <li>
+    <ul className={s.list}>
+      <li className={s.item}>
         <DesignApp />
-        <p>Design Furniture App</p>
+        <p className={s.text}>Design Furniture App</p>
       </li>
-      <li>
+      <li className={s.item}>
         <CloudApp />
-        <p>Cloud App</p>
+        <p className={s.text}>Cloud App</p>
       </li>
-      <li>
+      <li className={s.item}>
         <ByteApp />
-        <p>Design Byte App</p>
+        <p className={s.text}>Design Byte App</p>
       </li>
     </ul>
   );

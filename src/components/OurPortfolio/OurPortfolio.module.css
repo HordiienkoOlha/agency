@@ -1,0 +1,44 @@
+.container {
+  padding: 0 0 53px 0;
+}
+
+.title {
+  color: var(--accent-color);
+  font-family: Quicksand, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.14px;
+
+  text-align: center;
+}
+
+.description {
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.072px;
+
+  margin: 10px 0 0 0;
+}
+
+.text {
+  color: var(--secondary-text-color);
+  font-family: Quicksand, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.71429;
+  letter-spacing: 0.14px;
+  text-align: center;
+
+  margin: 34px 0 0 0;
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: center;
+}

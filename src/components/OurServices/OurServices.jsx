@@ -1,12 +1,14 @@
 import ServiceList from "../ServiceList/ServiceList";
 import ArrowRight from "../icons/ArrowRight";
 
+import s from "./OurServices.module.css";
+
 const labelButton = (
-  <ul>
+  <ul className={s.list}>
     <li>
-      <p>Read more</p>
+      <p className={s.labelText}>Read more</p>
     </li>
-    <li>
+    <li className={s.item}>
       <ArrowRight />
     </li>
   </ul>
@@ -14,15 +16,16 @@ const labelButton = (
 
 function OurServices() {
   return (
-    <section>
-      <h2>Our Services</h2>
-      <h3>Perfect and Fast Movement</h3>
-      <p>
-        We move with make a Creative Strategy for help your business goal, we
-        help to improve your income by a services we have. make your content
-        look interesting and make people look for your business
+    <section className={s.container}>
+      <h2 className={s.title}>Our Services</h2>
+      <h3 className={s.description}>Perfect and Fast Movement</h3>
+      <p className={s.text}>
+        all projects that we have already done , proven can help to use more
+        comfortable, then can used by client from our business
       </p>
-      <button type="button">{labelButton}</button>
+      <button type="button" className={s.button}>
+        {labelButton}
+      </button>
       <ServiceList />
     </section>
   );

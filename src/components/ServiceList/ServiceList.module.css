@@ -1,0 +1,96 @@
+.list {
+  padding: 23px 0;
+}
+
+.item {
+  max-width: 262px;
+  border-radius: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: #fff;
+  box-shadow: 4px 4px 30px 0px rgba(0, 0, 0, 0.1);
+
+  padding: 81px 79px 66px 79px;
+  z-index: -1;
+  margin: 35px 0 0 0;
+}
+.item:first-child {
+  margin: 0;
+}
+
+.iconWrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  z-index: 3;
+}
+
+.dotBlue {
+  position: absolute;
+  top: -30px;
+  left: 34px;
+  content: "";
+
+  width: 100px;
+  height: 100px;
+
+  background: var(--accent-color);
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.dotRed {
+  position: absolute;
+  top: -30px;
+  left: 34px;
+  content: "";
+
+  width: 100px;
+  height: 100px;
+
+  background: var(--icon-color);
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.dotGreen {
+  position: absolute;
+  top: -30px;
+  left: 34px;
+  content: "";
+
+  width: 100px;
+  height: 100px;
+
+  background: var(--secondary-icon-color);
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.dotOrange {
+  position: absolute;
+  top: -30px;
+  left: 34px;
+  content: "";
+
+  width: 100px;
+  height: 100px;
+
+  background: var(--third-icon-color);
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.text {
+  text-align: center;
+  font-family: Quicksand, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.16px;
+
+  margin: 56px 0 0 0;
+}
