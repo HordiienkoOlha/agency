@@ -8,8 +8,20 @@
   padding: 41px 0 40px 0;
 }
 
-.headerWrapper {
+.headerWrapperMobile {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.headerWrapperDesktop {
+    display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+@media screen and (min-width: 1440px) {
+  .containerWrapper {
+    padding: 0 100px;
+  }
 }

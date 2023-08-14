@@ -1,12 +1,12 @@
-import LogoImageMob from "../icons/LogoImageMob";
+import LogoImageDesk from "../icons/LogoImageDesk";
 
-import s from "./Logo.module.css";
+import s from "./LogoDesktop.module.css";
 
-function Logo() {
+function LogoDesktop() {
   return (
     <ul className={s.logoWrapper}>
       <li>
-        <LogoImageMob />
+        <LogoImageDesk />
       </li>
       <li>
         <ul className={s.logoList}>
@@ -22,4 +22,4 @@ function Logo() {
   );
 }
 
-export default Logo;
+export default LogoDesktop;
