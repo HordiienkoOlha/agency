@@ -15,14 +15,28 @@ function ProjectImage() {
         media="(min-width: 1440px)"
         srcSet={project1xWebpDesk}
         type="image/webp"
+        width="739px"
+        height="501px"
       />
       <source
         media="(min-width: 1440px)"
         srcSet={project2xWebpDesk}
         type="image/webp"
+        width="739px"
+        height="501px"
       />
-      <source media="(min-width: 1440px)" srcSet={project1xDesk} />
-      <source media="(min-width: 1440px)" srcSet={project2xDesk} />
+      <source
+        media="(min-width: 1440px)"
+        srcSet={project1xDesk}
+        width="739px"
+        height="501px"
+      />
+      <source
+        media="(min-width: 1440px)"
+        srcSet={project2xDesk}
+        width="739px"
+        height="501px"
+      />
       <source
         media="(min-width: 280px)"
         srcSet={project1xWebp}

@@ -15,14 +15,28 @@ function ByteApp() {
         media="(min-width: 1440px)"
         srcSet={byteApp1xWebpDesk}
         type="image/webp"
+        width="350px"
+        height="350px"
       />
       <source
         media="(min-width: 1440px)"
         srcSet={byteApp2xWebpDesk}
         type="image/webp"
+        width="350px"
+        height="350px"
       />
-      <source media="(min-width: 1440px)" srcSet={byteApp1xDesk} />
-      <source media="(min-width: 1440px)" srcSet={byteApp2xDesk} />
+      <source
+        media="(min-width: 1440px)"
+        srcSet={byteApp1xDesk}
+        width="350px"
+        height="350px"
+      />
+      <source
+        media="(min-width: 1440px)"
+        srcSet={byteApp2xDesk}
+        width="350px"
+        height="350px"
+      />
       <source
         media="(min-width: 280px)"
         srcSet={byteApp1xWebp}

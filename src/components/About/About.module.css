@@ -87,3 +87,16 @@
   left: 2px;
   z-index: -1;
 }
+
+@media screen and (min-width: 1440px) {
+  .button,
+  .buttonReverse {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.16px;
+
+    padding: 12px 50px;
+  }
+}

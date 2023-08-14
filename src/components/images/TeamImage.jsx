@@ -15,14 +15,28 @@ function TeamImage() {
         media="(min-width: 1440px)"
         srcSet={team1xWebpDesk}
         type="image/webp"
+        width="565px"
+        height="402px"
       />
       <source
         media="(min-width: 1440px)"
         srcSet={team2xWebpDesk}
         type="image/webp"
+        width="565px"
+        height="402px"
       />
-      <source media="(min-width: 1440px)" srcSet={team1xDesk} />
-      <source media="(min-width: 1440px)" srcSet={team2xDesk} />
+      <source
+        media="(min-width: 1440px)"
+        srcSet={team1xDesk}
+        width="565px"
+        height="402px"
+      />
+      <source
+        media="(min-width: 1440px)"
+        srcSet={team2xDesk}
+        width="565px"
+        height="402px"
+      />
       <source
         media="(min-width: 280px)"
         srcSet={team1xWebp}

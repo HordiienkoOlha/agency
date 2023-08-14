@@ -15,14 +15,28 @@ function CloudApp() {
         media="(min-width: 1440px)"
         srcSet={cloudApp1xWebpDesk}
         type="image/webp"
+        width="400px"
+        height="400px"
       />
       <source
         media="(min-width: 1440px)"
         srcSet={cloudApp2xWebpDesk}
         type="image/webp"
+        width="400px"
+        height="400px"
       />
-      <source media="(min-width: 1440px)" srcSet={cloudApp1xDesk} />
-      <source media="(min-width: 1440px)" srcSet={cloudApp2xDesk} />
+      <source
+        media="(min-width: 1440px)"
+        srcSet={cloudApp1xDesk}
+        width="400px"
+        height="400px"
+      />
+      <source
+        media="(min-width: 1440px)"
+        srcSet={cloudApp2xDesk}
+        width="400px"
+        height="400px"
+      />
       <source
         media="(min-width: 280px)"
         srcSet={cloudApp1xWebp}

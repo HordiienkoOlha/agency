@@ -64,7 +64,8 @@
 .wrapperBlueDots {
   position: absolute;
   top: -11px;
-  right: -4px;
+  /* right: -4px; */
+  left: 241px;
   z-index: -1;
 }
 

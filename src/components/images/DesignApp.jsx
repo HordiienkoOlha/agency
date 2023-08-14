@@ -15,14 +15,28 @@ function DesignApp() {
         media="(min-width: 1440px)"
         srcSet={designApp1xWebpDesk}
         type="image/webp"
+        width="350px"
+        height="350px"
       />
       <source
         media="(min-width: 1440px)"
         srcSet={designApp2xWebpDesk}
         type="image/webp"
+        width="350px"
+        height="350px"
       />
-      <source media="(min-width: 1440px)" srcSet={designApp1xDesk} />
-      <source media="(min-width: 1440px)" srcSet={designApp2xDesk} />
+      <source
+        media="(min-width: 1440px)"
+        srcSet={designApp1xDesk}
+        width="350px"
+        height="350px"
+      />
+      <source
+        media="(min-width: 1440px)"
+        srcSet={designApp2xDesk}
+        width="350px"
+        height="350px"
+      />
       <source
         media="(min-width: 280px)"
         srcSet={designApp1xWebp}
