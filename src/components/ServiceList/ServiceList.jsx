@@ -11,7 +11,6 @@ function ServiceList() {
       <li className={s.itemWrapper}>
         <div className={s.item}>
           <div className={s.iconWrapper}>
-
             <div className={s.dotBlue}></div>
           </div>
           <p className={s.text}>Social Media Management</p>
@@ -21,7 +20,6 @@ function ServiceList() {
       <li className={s.itemWrapper}>
         <div className={s.item}>
           <div className={s.iconWrapper}>
-
             <div className={s.dotRed}></div>
           </div>
           <p className={s.text}>Search Engine Opimization</p>
@@ -31,7 +29,6 @@ function ServiceList() {
       <li className={s.itemWrapper}>
         <div className={s.item}>
           <div className={s.iconWrapper}>
-
             <div className={s.dotGreen}></div>
           </div>
           <p className={s.text}>Design</p>
@@ -41,7 +38,6 @@ function ServiceList() {
       <li className={s.itemWrapper}>
         <div className={s.item}>
           <div className={s.iconWrapper}>
-
             <div className={s.dotOrange}></div>
           </div>
           <p className={s.text}>Ads</p>

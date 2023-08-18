@@ -59,7 +59,7 @@
 }
 
 .dotRed {
-position: relative;
+  position: relative;
   content: "";
 
   width: 100px;
@@ -83,7 +83,7 @@ position: relative;
 }
 
 .dotGreen {
-position: relative;
+  position: relative;
   content: "";
 
   width: 100px;
@@ -107,7 +107,7 @@ position: relative;
 }
 
 .dotOrange {
-position: relative;
+  position: relative;
   content: "";
 
   width: 100px;
