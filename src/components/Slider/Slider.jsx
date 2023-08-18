@@ -4,11 +4,10 @@ import "swiper/css";
 import "swiper/css/autoplay";
 
 import CardTestimonial from "../CardTestimonial/CardTestimonial";
-import Container from "../Container/Container";
 
 function Slider() {
   return (
-    <Container>
+    <div>
       <Swiper
         spaceBetween={50}
         slidesPerView={1}
@@ -30,7 +29,7 @@ function Slider() {
           <CardTestimonial />
         </SwiperSlide>
       </Swiper>
-    </Container>
+    </div>
   );
 }
 export default Slider;
