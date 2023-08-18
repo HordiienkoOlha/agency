@@ -8,7 +8,8 @@ import RedDots from "../icons/RedDots";
 
 function Project() {
   return (
-    <section className={s.container}>
+    <section className={s.containerWrapper}>
+      <div className={s.container}>
       <div className={s.project}>
         <ProjectImage />
         <div className={s.content}>
@@ -34,6 +35,7 @@ function Project() {
         </div>
 
         <Card />
+      </div>
       </div>
     </section>
   );

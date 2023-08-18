@@ -1,19 +1,26 @@
 .list {
   padding: 23px 0;
+
+  width: 262px;
+
+  margin: 0 auto;
 }
 
-.item {
-  max-width: 262px;
+.itemWrapper {
   border-radius: 30px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background: #fff;
   box-shadow: 4px 4px 30px 0px rgba(0, 0, 0, 0.1);
-
-  padding: 81px 79px 66px 79px;
   z-index: -1;
   margin: 35px 0 0 0;
+
+  height: 269px;
 }
-.item:first-child {
+
+.item {
+  padding: 35px 70px 59px 70px;
+}
+.itemWrapper:first-child {
   margin: 0;
 }
 
@@ -28,9 +35,8 @@
 }
 
 .dotBlue {
-  position: absolute;
-  top: -30px;
-  left: 34px;
+  position: relative;
+
   content: "";
 
   width: 100px;
@@ -38,13 +44,22 @@
 
   background: var(--accent-color);
   border-radius: 50%;
+}
+
+.dotBlue:after {
+  position: absolute;
+  top: 29px;
+  left: 30px;
+  content: "";
+  background-image: url("../../images/icons/monitor.svg");
+
+  width: 42px;
+  height: 42px;
   z-index: 1;
 }
 
 .dotRed {
-  position: absolute;
-  top: -30px;
-  left: 34px;
+position: relative;
   content: "";
 
   width: 100px;
@@ -55,10 +70,20 @@
   z-index: 1;
 }
 
-.dotGreen {
+.dotRed:after {
   position: absolute;
-  top: -30px;
-  left: 34px;
+  top: 29px;
+  left: 30px;
+  content: "";
+  background-image: url("../../images/icons/settings.svg");
+
+  width: 42px;
+  height: 42px;
+  z-index: 1;
+}
+
+.dotGreen {
+position: relative;
   content: "";
 
   width: 100px;
@@ -69,10 +94,20 @@
   z-index: 1;
 }
 
-.dotOrange {
+.dotGreen:after {
   position: absolute;
-  top: -30px;
-  left: 34px;
+  top: 29px;
+  left: 30px;
+  content: "";
+  background-image: url("../../images/icons/pen-tool.svg");
+
+  width: 42px;
+  height: 42px;
+  z-index: 1;
+}
+
+.dotOrange {
+position: relative;
   content: "";
 
   width: 100px;
@@ -80,6 +115,18 @@
 
   background: var(--third-icon-color);
   border-radius: 50%;
+  z-index: 1;
+}
+
+.dotOrange:after {
+  position: absolute;
+  top: 29px;
+  left: 30px;
+  content: "";
+  background-image: url("../../images/icons/tv.svg");
+
+  width: 42px;
+  height: 42px;
   z-index: 1;
 }
 
@@ -92,5 +139,5 @@
   line-height: 1.5;
   letter-spacing: 0.16px;
 
-  margin: 56px 0 0 0;
+  margin: 27px 0 0 0;
 }

@@ -1,5 +1,10 @@
+.containerWrapper {
+  display: flex;
+  justify-content: center;
+}
+
 .container {
-  padding: 29px 20px;
+  padding: 29px 15px;
 }
 
 .project {
@@ -64,8 +69,7 @@
 .wrapperBlueDots {
   position: absolute;
   top: -11px;
-  /* right: -4px; */
-  left: 241px;
+  right: -11px;
   z-index: -1;
 }
 
