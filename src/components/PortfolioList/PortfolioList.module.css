@@ -1,30 +1,90 @@
 .list {
   padding: 34px 0 48.12px 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  max-width: 300px;
+  margin: 0 auto;
 }
 
-.item {
+.itemDesign {
   position: relative;
-  max-width: 300px;
+  width: 300px;
+  height: 300px;
   border-radius: 30px;
-  background: linear-gradient(
+  background-image: linear-gradient(
       0deg,
       rgba(0, 0, 0, 0.15) 0%,
       rgba(0, 0, 0, 0.15) 100%
     ),
-    url(<path-to-image>), lightgray 50% / cover no-repeat, #d9d9d9;
+    url("../../images/portfolio/design-app-1x-min.jpg");
+
+  background-color: #d9d9d9;
+  background-position: 50% 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 0 0 24px 0;
+}
+
+.itemCloud {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.15) 0%,
+      rgba(0, 0, 0, 0.15) 100%
+    ),
+    url("../../images/portfolio/cloud-app-1x-min.jpg");
+
+  background-color: #d9d9d9;
+  background-position: 50% 0;
+  background-size: cover;
+  background-repeat: no-repeat;
 
   margin: 54px 0 0 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 0 0 24px 0;
 }
 
-.item:first-child {
-  margin: 0;
+.itemByte {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.15) 0%,
+      rgba(0, 0, 0, 0.15) 100%
+    ),
+    url("../../images/portfolio/byte-app-1x-min.jpg");
+
+  background-color: #d9d9d9;
+  background-position: 50% 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  margin: 54px 0 0 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 0 0 24px 0;
 }
 
-.item:focus,
-.item:hover {
+.itemDesign:focus,
+.itemDesign:hover,
+.itemCloud:focus,
+.itemCloud:hover,
+.itemByte:focus,
+.itemByte:hover {
   scale: 1.1;
   transition: opacity 250ms cubic-bezier(0.17, 0.67, 0.83, 0.67),
     visibility 250ms cubic-bezier(0.17, 0.67, 0.83, 0.67);
@@ -39,9 +99,61 @@
   line-height: 1;
   letter-spacing: 0.072px;
 
-  position: absolute;
-  bottom: 24px;
-  left: 24px;
   z-index: 2;
   text-align: center;
+}
+
+@media (min-width: 1440px) {
+  .itemDesign {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.15) 0%,
+        rgba(0, 0, 0, 0.15) 100%
+      ),
+      url("../../images/portfolio/design-app-1x-d.webp");
+  }
+  .itemCloud {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.15) 0%,
+        rgba(0, 0, 0, 0.15) 100%
+      ),
+      url("../../images/portfolio/cloud-app-1x-d.webp");
+  }
+  .itemByte {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.15) 0%,
+        rgba(0, 0, 0, 0.15) 100%
+      ),
+      url("../../images/portfolio/byte-app-1x-d.webp");
+  }
+}
+
+@media (min-width: 280px) {
+  .itemDesign {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.15) 0%,
+        rgba(0, 0, 0, 0.15) 100%
+      ),
+      url("../../images/portfolio/design-app-1x.webp");
+  }
+  .itemCloud {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.15) 0%,
+        rgba(0, 0, 0, 0.15) 100%
+      ),
+      url("../../images/portfolio/cloud-app-1x.webp");
+  }
+
+  .itemByte {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.15) 0%,
+        rgba(0, 0, 0, 0.15) 100%
+      ),
+      url("../../images/portfolio/byte-app-1x.webp");
+  }
 }
